@@ -41,47 +41,47 @@
         "for":"Zejula, Ojjaara"
       },
       {
-        "name": "insurancePayer",
+        "name": "primaryDiagnosis *",
         "value": "",
         "display": true,
-        "label": "Primary Insurance Payer",
-        "placeholder": "Enter your primary insurance payer",
+        "label": "Primary Diagnosis *",
+        "placeholder": "Enter your Primary Diagnosis",
         "type": "text",
         "validators": { "required": true }
       },
       {
-        "name": "insurancePayer",
+        "name": "primaryDiagnosisICD-10Code",
         "value": "",
         "display": true,
-        "label": "Primary Insurance Payer",
-        "placeholder": "Enter your primary insurance payer",
+        "label": "Primary Diagnosis ICD-10 Code",
+        "placeholder": "Enter your Primary Diagnosis ICD-10 Code",
         "type": "text",
         "validators": { "required": true }
       },
       {
-        "name": "insurancePayer",
+        "name": "secondaryDiagnosis",
         "value": "",
         "display": true,
-        "label": "Primary Insurance Payer",
-        "placeholder": "Enter your primary insurance payer",
+        "label": "Secondary Diagnosis",
+        "placeholder": "Enter your Secondary Diagnosis",
         "type": "text",
-        "validators": { "required": true }
+        "validators": {}
       },
       {
-        "name": "insurancePayer",
+        "name": "secondaryDiagnosisICD-10Code",
         "value": "",
         "display": true,
-        "label": "Primary Insurance Payer",
-        "placeholder": "Enter your primary insurance payer",
+        "label": "Secondary Diagnosis ICD-10 Code",
+        "placeholder": "Enter your Secondary Diagnosis ICD-10 Code",
         "type": "text",
-        "validators": { "required": true }
+        "validators": {}
       }
     ]
   },
   "currentLineOfTherapy": {
     "controls": [
       {
-        "name": "coverageType",
+        "name": "",
         "value": "",
         "display": true,
         "label": "",
@@ -90,98 +90,101 @@
         "validators": { "required": true },
         "options": [
           {
-            "label": "Medicare",
-            "value": "Medicare"
+            "label": "1st line",
+            "value": "1st line"
           },
           {
-            "label": "Medicaid",
-            "value": "Medicaid"
+            "label": "2nd line",
+            "value": "2nd line"
           },
           {
-            "label": "Commercial/Private",
-            "value": "Commercial/Private"
+            "label": "3rd line,
+            "value": "3rd line"
           },
           {
-            "label": "TRICARE",
-            "value": "TRICARE",
-            "for": "Zejula, Ojjaara"
+            "label": "4th line",
+            "value": "4th line",
+            
           },
-          {
-            "label": "Other",
-            "value": "Other"
-          },
-          {
-            "label": "Uninsured",
-            "value": "Uninsured"
-          }
         ],
         "class": "blockRadio"
       },
       {
-        "name": "insurancePayer",
+        "name": "BRCA Test",
         "value": "",
         "display": true,
-        "label": "Primary Insurance Payer",
-        "placeholder": "Enter your primary insurance payer",
+        "label": "BRCA Test",
+        "placeholder": "",
+        "type": "radio",
+        "validators": {  },
+        "options": [
+          {
+            "label": "Positive",
+            "value": "Psitive"
+          },
+          {
+            "label": "Negative",
+            "value": "Negative"
+          },
+          {
+            "label": "Results Pending",
+            "value": "Results Pending"
+          },
+          {
+            "label": "No Teste",
+            "value": "No Test",
+            
+          },
+        ],
+        "class": "blockRadio"
+      },
+      {
+        "name": "HRD Test",
+        "value": "",
+        "display": true,
+        "label": "HRD Test",
+        "placeholder": "",
+        "type": "radio",
+        "validators": {  },
+        "options": [
+          {
+            "label": "Positive",
+            "value": "Psitive"
+          },
+          {
+            "label": "Negative",
+            "value": "Negative"
+          },
+          {
+            "label": "Results Pending",
+            "value": "Results Pending"
+          },
+          {
+            "label": "No Teste",
+            "value": "No Test",
+            
+          },
+        ],
+        "class": "blockRadio"
+      },
+      {
+        "name": "knownDrugAllergies",
+        "value": "",
+        "display": true,
+        "label": "Known Drug Allergies",
+        "placeholder": "Enter your Known Drug Allergies",
         "type": "text",
-        "validators": { "required": true }
+        "validators": {  }
       },
       {
-        "name": "dob",
+        "name": "notes",
         "value": "",
         "display": true,
-        "label": "Date of Birth",
-        "placeholder": "mm/dd/yyyy",
-        "type": "date",
-        "validators": { "required": true },
-        "disabled": false
-      },
-      {
-        "name": "dob",
-        "value": "",
-        "display": true,
-        "label": "Date of Birth",
-        "placeholder": "mm/dd/yyyy",
-        "type": "date",
-        "validators": { "required": true },
-        "disabled": false
-      },
-      {
-        "name": "insurancePayer",
-        "value": "",
-        "display": true,
-        "label": "Primary Insurance Payer",
-        "placeholder": "Enter your primary insurance payer",
+        "label": "Notes",
+        "placeholder": "Enter your Notess",
         "type": "text",
-        "validators": { "required": true }
+        "validators": {  }
       },
-      {
-        "name": "insurancePayer",
-        "value": "",
-        "display": true,
-        "label": "Primary Insurance Payer",
-        "placeholder": "Enter your primary insurance payer",
-        "type": "text",
-        "validators": { "required": true }
-      },
-      {
-        "name": "insurancePayer",
-        "value": "",
-        "display": true,
-        "label": "Primary Insurance Payer",
-        "placeholder": "Enter your primary insurance payer",
-        "type": "text",
-        "validators": { "required": true }
-      },
-      {
-        "name": "insurancePayer",
-        "value": "",
-        "display": true,
-        "label": "Primary Insurance Payer",
-        "placeholder": "Enter your primary insurance payer",
-        "type": "text",
-        "validators": { "required": true }
-      }
     ]
   },
   "prescriptionInfo": {
