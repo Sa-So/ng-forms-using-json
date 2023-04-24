@@ -15,8 +15,9 @@
       },
 
 ```
+- if you do not specify the medicine inside for attrib. you get that form control in every medicine.
 
-- we will filter it in code.
+- we filter it in code.
 ```ts
 data.currentLineOfTherapy.controls = data.currentLineOfTherapy.controls.filter((el:any)=>(!el.for || el.for.includes(this.enrollmentFormPayload.DrugGroup)));
 ```
