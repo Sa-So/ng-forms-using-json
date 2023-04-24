@@ -1,0 +1,265 @@
+{
+  "clinicalInfo": {
+    "controls": [
+      {
+        "name": "patientFirstName",
+        "value": "",
+        "display": true,
+        "label": "Patient First Name",
+        "placeholder": "Enter your First name",
+        "type": "text",
+        "validators": {}
+      },
+      {
+        "name": "patientLastName ",
+        "value": "",
+        "display": true,
+        "label": "Patient Last Name",
+        "placeholder": "Enter your Last Name ",
+        "type": "text",
+        "validators": {}
+      },
+      {
+        "name": "patientDateOfBirth",
+        "value": "",
+        "display": true,
+        "label": "Date of Birth",
+        "placeholder": "mm/dd/yyyy",
+        "type": "date",
+        "validators": { "required": true },
+        "disabled": false
+      },
+      {
+        "name": "treatmentStartDate",
+        "value": "",
+        "display": true,
+        "label": "Treatment Start Date",
+        "placeholder": "mm/dd/yyyy",
+        "type": "date",
+        "validators": {},
+        "disabled": false,
+        "for":"Zejula, Ojjaara"
+      },
+      {
+        "name": "insurancePayer",
+        "value": "",
+        "display": true,
+        "label": "Primary Insurance Payer",
+        "placeholder": "Enter your primary insurance payer",
+        "type": "text",
+        "validators": { "required": true }
+      },
+      {
+        "name": "insurancePayer",
+        "value": "",
+        "display": true,
+        "label": "Primary Insurance Payer",
+        "placeholder": "Enter your primary insurance payer",
+        "type": "text",
+        "validators": { "required": true }
+      },
+      {
+        "name": "insurancePayer",
+        "value": "",
+        "display": true,
+        "label": "Primary Insurance Payer",
+        "placeholder": "Enter your primary insurance payer",
+        "type": "text",
+        "validators": { "required": true }
+      },
+      {
+        "name": "insurancePayer",
+        "value": "",
+        "display": true,
+        "label": "Primary Insurance Payer",
+        "placeholder": "Enter your primary insurance payer",
+        "type": "text",
+        "validators": { "required": true }
+      }
+    ]
+  },
+  "currentLineOfTherapy": {
+    "controls": [
+      {
+        "name": "coverageType",
+        "value": "",
+        "display": true,
+        "label": "",
+        "placeholder": "",
+        "type": "radio",
+        "validators": { "required": true },
+        "options": [
+          {
+            "label": "Medicare",
+            "value": "Medicare"
+          },
+          {
+            "label": "Medicaid",
+            "value": "Medicaid"
+          },
+          {
+            "label": "Commercial/Private",
+            "value": "Commercial/Private"
+          },
+          {
+            "label": "TRICARE",
+            "value": "TRICARE",
+            "for": "Zejula, Ojjaara"
+          },
+          {
+            "label": "Other",
+            "value": "Other"
+          },
+          {
+            "label": "Uninsured",
+            "value": "Uninsured"
+          }
+        ],
+        "class": "blockRadio"
+      },
+      {
+        "name": "insurancePayer",
+        "value": "",
+        "display": true,
+        "label": "Primary Insurance Payer",
+        "placeholder": "Enter your primary insurance payer",
+        "type": "text",
+        "validators": { "required": true }
+      },
+      {
+        "name": "dob",
+        "value": "",
+        "display": true,
+        "label": "Date of Birth",
+        "placeholder": "mm/dd/yyyy",
+        "type": "date",
+        "validators": { "required": true },
+        "disabled": false
+      },
+      {
+        "name": "dob",
+        "value": "",
+        "display": true,
+        "label": "Date of Birth",
+        "placeholder": "mm/dd/yyyy",
+        "type": "date",
+        "validators": { "required": true },
+        "disabled": false
+      },
+      {
+        "name": "insurancePayer",
+        "value": "",
+        "display": true,
+        "label": "Primary Insurance Payer",
+        "placeholder": "Enter your primary insurance payer",
+        "type": "text",
+        "validators": { "required": true }
+      },
+      {
+        "name": "insurancePayer",
+        "value": "",
+        "display": true,
+        "label": "Primary Insurance Payer",
+        "placeholder": "Enter your primary insurance payer",
+        "type": "text",
+        "validators": { "required": true }
+      },
+      {
+        "name": "insurancePayer",
+        "value": "",
+        "display": true,
+        "label": "Primary Insurance Payer",
+        "placeholder": "Enter your primary insurance payer",
+        "type": "text",
+        "validators": { "required": true }
+      },
+      {
+        "name": "insurancePayer",
+        "value": "",
+        "display": true,
+        "label": "Primary Insurance Payer",
+        "placeholder": "Enter your primary insurance payer",
+        "type": "text",
+        "validators": { "required": true }
+      }
+    ]
+  },
+  "prescriptionInfo": {
+    "controls": [
+      {
+        "name": "insurancePayer",
+        "value": "",
+        "display": true,
+        "label": "Primary Insurance Payer",
+        "placeholder": "Enter your primary insurance payer",
+        "type": "text",
+        "validators": { "required": true }
+      },
+      {
+        "name": "insurancePayer",
+        "value": "",
+        "display": true,
+        "label": "Primary Insurance Payer",
+        "placeholder": "Enter your primary insurance payer",
+        "type": "text",
+        "validators": { "required": true }
+      },
+      {
+        "name": "dob",
+        "value": "",
+        "display": true,
+        "label": "Date of Birth",
+        "placeholder": "mm/dd/yyyy",
+        "type": "date",
+        "validators": { "required": true },
+        "disabled": false
+      },
+      {
+        "name": "dob",
+        "value": "",
+        "display": true,
+        "label": "Date of Birth",
+        "placeholder": "mm/dd/yyyy",
+        "type": "date",
+        "validators": { "required": true },
+        "disabled": false
+      },
+      {
+        "name": "insurancePayer",
+        "value": "",
+        "display": true,
+        "label": "Primary Insurance Payer",
+        "placeholder": "Enter your primary insurance payer",
+        "type": "text",
+        "validators": { "required": true }
+      },
+      {
+        "name": "insurancePayer",
+        "value": "",
+        "display": true,
+        "label": "Primary Insurance Payer",
+        "placeholder": "Enter your primary insurance payer",
+        "type": "text",
+        "validators": { "required": true }
+      },
+      {
+        "name": "insurancePayer",
+        "value": "",
+        "display": true,
+        "label": "Primary Insurance Payer",
+        "placeholder": "Enter your primary insurance payer",
+        "type": "text",
+        "validators": { "required": true }
+      },
+      {
+        "name": "insurancePayer",
+        "value": "",
+        "display": true,
+        "label": "Primary Insurance Payer",
+        "placeholder": "Enter your primary insurance payer",
+        "type": "text",
+        "validators": { "required": true }
+      }
+    ]
+  }
+}
