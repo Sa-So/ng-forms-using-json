@@ -1,0 +1,23 @@
+{
+        "name": "relationToPatient",
+        "value": "",
+        "display": true,
+        "label": "Policy Holder's Relationship to Patient",
+        "placeholder": "Select relationship to patient",
+        "type": "select",
+        "validators": { "required": true },
+        "options": [
+          {
+            "label": "Self",
+            "value": "Self"
+          },
+          {
+            "label": "Father",
+            "value": "Father"
+          },
+          {
+            "label": "Spouse",
+            "value": "Spouse"
+          }
+        ]
+      }
