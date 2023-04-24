@@ -1,0 +1,22 @@
+ {
+        "name": "siteOfAdministration",
+        "value": "physicianOffice",
+        "label": "Site of Administration *",
+        "placeholder": "Enter your city",
+        "type": "radio",
+        "validators": { "required": true },
+        "options": [
+          {
+            "label": "Physician’s office",
+            "value": "physicianOffice"
+          },
+          {
+            "label": "Hospital outpatient",
+            "value": "hospitalOutpatient"
+          },
+          {
+            "label": "Another site of care",
+            "value": "anotherSiteOfCare"
+          }
+        ]
+      }
