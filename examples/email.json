@@ -1,0 +1,12 @@
+{
+      "name": "email",
+      "value": "",
+      "label": "Email Address",
+      "placeholder": "Enter your Email Address",
+      "type": "email",
+      "validators": {
+        "required": true,
+        "pattern": "^\\S+@\\S+\\.\\S+$"
+      },
+      "options": {}
+    }
