@@ -1,0 +1,10 @@
+{
+        "name": "dob",
+        "value": "",
+        "display": true,
+        "label": "Date of Birth",
+        "placeholder": "mm/dd/yyyy",
+        "type": "date",
+        "validators": { "required": true },
+        "disabled": false
+      }
