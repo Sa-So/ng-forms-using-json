@@ -1,0 +1,13 @@
+{
+      "name": "phone",
+      "value": "",
+      "label": "Phone",
+      "placeholder": "Enter your Phone",
+      "type": "number",
+      "validators": {
+        "required": true,
+        "min": 10,
+        "max": 10
+      },
+      "options": {}
+    }
