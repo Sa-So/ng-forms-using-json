@@ -38,7 +38,7 @@
         "type": "date",
         "validators": {},
         "disabled": false,
-        "for":"Zejula, Ojjaara"
+        "for": "Zejula, Ojjaara"
       },
       {
         "name": "primaryDiagnosis *",
@@ -98,14 +98,13 @@
             "value": "2nd line"
           },
           {
-            "label": "3rd line,
+            "label": "3rd line",
             "value": "3rd line"
           },
           {
             "label": "4th line",
-            "value": "4th line",
-            
-          },
+            "value": "4th line"
+          }
         ],
         "class": "blockRadio"
       },
@@ -116,7 +115,7 @@
         "label": "BRCA Test",
         "placeholder": "",
         "type": "radio",
-        "validators": {  },
+        "validators": {},
         "options": [
           {
             "label": "Positive",
@@ -132,9 +131,8 @@
           },
           {
             "label": "No Teste",
-            "value": "No Test",
-            
-          },
+            "value": "No Test"
+          }
         ],
         "class": "blockRadio"
       },
@@ -145,7 +143,7 @@
         "label": "HRD Test",
         "placeholder": "",
         "type": "radio",
-        "validators": {  },
+        "validators": {},
         "options": [
           {
             "label": "Positive",
@@ -161,9 +159,8 @@
           },
           {
             "label": "No Teste",
-            "value": "No Test",
-            
-          },
+            "value": "No Test"
+          }
         ],
         "class": "blockRadio"
       },
@@ -174,7 +171,7 @@
         "label": "Known Drug Allergies",
         "placeholder": "Enter your Known Drug Allergies",
         "type": "text",
-        "validators": {  }
+        "validators": {}
       },
       {
         "name": "notes",
@@ -183,85 +180,98 @@
         "label": "Notes",
         "placeholder": "Enter your Notess",
         "type": "text",
-        "validators": {  }
-      },
+        "validators": {}
+      }
     ]
   },
   "prescriptionInfo": {
     "controls": [
       {
-        "name": "insurancePayer",
+        "name": "prescriptionMedicine",
         "value": "",
         "display": true,
-        "label": "Primary Insurance Payer",
-        "placeholder": "Enter your primary insurance payer",
-        "type": "text",
-        "validators": { "required": true }
+        "label": "",
+        "placeholder": "",
+        "type": "checkbox",
+        "validators": { },
+        "for":"Zejula, Ojjaara",
+        "options": [
+          {
+            "label": "ZEJULA: Standard Prescription",
+            "value": {
+              "Id": 1,
+              "Name": "standard"
+            },
+            "for": "Zejula"
+          },
+          {
+            "label": "ZEJULA: Quick Start Program",
+            "subLabel":"For patients experiencing a delay in coverage at first dispense",
+            "value": {
+              "Id": 1,
+              "Name": "quickStartProgram"
+            },
+            "for": "Zejula"
+          },
+          {
+            "label": "ZEJULA: Bridge Program",
+            "subLabel":"For patients experiencing coverage interruptions while already on treatment",
+            "value": {
+              "Id": 1,
+              "Name": ""
+            },
+            "for": "Zejula"
+          },
+          {
+            "label": "OJJAARA: Standard Prescription",
+            "value": {
+              "Id": 1,
+              "Name": "standard"
+            },
+            "for": "Ojjaara"
+          },
+          {
+            "label": "OJJAARA: Quick Start Program",
+            "subLabel":"For patients experiencing a delay in coverage at first dispense",
+            "value": {
+              "Id": 1,
+              "Name": "quickStartProgram"
+            },
+            "for": "Ojjaara"
+          },
+          {
+            "label": "OJJAARA: Bridge Program",
+            "subLabel":"For patients experiencing coverage interruptions while already on treatment",
+            "value": {
+              "Id": 1,
+              "Name": ""
+            },
+            "for": "Ojjaara"
+          }
+        ]
       },
       {
-        "name": "insurancePayer",
+        "name": "prescriptionSignature",
         "value": "",
         "display": true,
-        "label": "Primary Insurance Payer",
-        "placeholder": "Enter your primary insurance payer",
-        "type": "text",
-        "validators": { "required": true }
-      },
-      {
-        "name": "dob",
-        "value": "",
-        "display": true,
-        "label": "Date of Birth",
-        "placeholder": "mm/dd/yyyy",
-        "type": "date",
+        "label": "Prescription Signature",
+        "placeholder": "Select Prescription Signature",
+        "type": "select",
         "validators": { "required": true },
-        "disabled": false
+        "options": [
+          {
+            "label": "Dispense as written",
+            "value": "Dispense as written"
+          },
+          {
+            "label": "Substitute Permitted",
+            "value": "Substitute Permitted"
+          }
+        ]
       },
       {
-        "name": "dob",
-        "value": "",
-        "display": true,
-        "label": "Date of Birth",
-        "placeholder": "mm/dd/yyyy",
-        "type": "date",
-        "validators": { "required": true },
-        "disabled": false
-      },
-      {
-        "name": "insurancePayer",
-        "value": "",
-        "display": true,
-        "label": "Primary Insurance Payer",
-        "placeholder": "Enter your primary insurance payer",
-        "type": "text",
-        "validators": { "required": true }
-      },
-      {
-        "name": "insurancePayer",
-        "value": "",
-        "display": true,
-        "label": "Primary Insurance Payer",
-        "placeholder": "Enter your primary insurance payer",
-        "type": "text",
-        "validators": { "required": true }
-      },
-      {
-        "name": "insurancePayer",
-        "value": "",
-        "display": true,
-        "label": "Primary Insurance Payer",
-        "placeholder": "Enter your primary insurance payer",
-        "type": "text",
-        "validators": { "required": true }
-      },
-      {
-        "name": "insurancePayer",
-        "value": "",
-        "display": true,
-        "label": "Primary Insurance Payer",
-        "placeholder": "Enter your primary insurance payer",
-        "type": "text",
-        "validators": { "required": true }
+        "label":"Note: Signature will be obtained during the next step.",
+        "display":true
       }
     ]
   }
