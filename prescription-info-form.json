@@ -8,7 +8,9 @@
         "label": "Patient First Name",
         "placeholder": "Enter your First name",
         "type": "text",
-        "validators": {}
+        "validators": {},
+        "for":"Zejula, Ojjaara",
+        
       },
       {
         "name": "patientLastName ",
@@ -17,7 +19,8 @@
         "label": "Patient Last Name",
         "placeholder": "Enter your Last Name ",
         "type": "text",
-        "validators": {}
+        "validators": {},
+        "for":"Zejula, Ojjaara",
       },
       {
         "name": "patientDateOfBirth",
@@ -27,7 +30,8 @@
         "placeholder": "mm/dd/yyyy",
         "type": "date",
         "validators": { "required": true },
-        "disabled": false
+        "disabled": false,
+        "for":"Zejula, Ojjaara",
       },
       {
         "name": "treatmentStartDate",
@@ -47,7 +51,8 @@
         "label": "Primary Diagnosis *",
         "placeholder": "Enter your Primary Diagnosis",
         "type": "text",
-        "validators": { "required": true }
+        "validators": { "required": true },
+        "for":"Zejula, Ojjaara",
       },
       {
         "name": "primaryDiagnosisICD-10Code",
@@ -56,7 +61,8 @@
         "label": "Primary Diagnosis ICD-10 Code",
         "placeholder": "Enter your Primary Diagnosis ICD-10 Code",
         "type": "text",
-        "validators": { "required": true }
+        "validators": { "required": true },
+        "for":"Zejula, Ojjaara",
       },
       {
         "name": "secondaryDiagnosis",
@@ -65,7 +71,8 @@
         "label": "Secondary Diagnosis",
         "placeholder": "Enter your Secondary Diagnosis",
         "type": "text",
-        "validators": {}
+        "validators": {},
+        "for":"Zejula, Ojjaara",
       },
       {
         "name": "secondaryDiagnosisICD-10Code",
@@ -74,7 +81,8 @@
         "label": "Secondary Diagnosis ICD-10 Code",
         "placeholder": "Enter your Secondary Diagnosis ICD-10 Code",
         "type": "text",
-        "validators": {}
+        "validators": {},
+        "for":"Zejula, Ojjaara",
       }
     ]
   },
@@ -106,7 +114,8 @@
             "value": "4th line"
           }
         ],
-        "class": "blockRadio"
+        "class": "blockRadio",
+        "for":"Zejula"
       },
       {
         "name": "BRCA Test",
@@ -134,7 +143,8 @@
             "value": "No Test"
           }
         ],
-        "class": "blockRadio"
+        "class": "blockRadio",
+        "for":"Zejula"
       },
       {
         "name": "HRD Test",
@@ -162,7 +172,9 @@
             "value": "No Test"
           }
         ],
-        "class": "blockRadio"
+        "class": "blockRadio",
+        "for":"Zejula"
+        
       },
       {
         "name": "knownDrugAllergies",
@@ -171,7 +183,8 @@
         "label": "Known Drug Allergies",
         "placeholder": "Enter your Known Drug Allergies",
         "type": "text",
-        "validators": {}
+        "validators": {},
+        "for":"Zejula , Ojjaara "
       },
       {
         "name": "notes",
@@ -180,8 +193,63 @@
         "label": "Notes",
         "placeholder": "Enter your Notess",
         "type": "text",
-        "validators": {}
-      }
+        "validators": {},
+        "for":"Zejula , Ojjaara "
+      },
+      {
+        "name": "previousTherapies",
+        "value": "",
+        "display": true,
+        "label": "Previous Therapies",
+        "placeholder": "Enter your Previous Therapies ",
+        "type": "text",
+        "validators": {},
+        "for": "Ojjaara"
+      },
+      {
+        "name": "latestHemoglobin(g/dL)",
+        "value": "",
+        "display": true,
+        "label": "Latest Hemoglobin (g/dL)",
+        "placeholder": "Enter your Latest Hemoglobin ",
+        "type": "text",
+        "validators": {},
+        "for": "Ojjaara"
+      },
+      {
+        "name": "Date of Last Transfusion",
+        "value": "",
+        "display": true,
+        "label": "",
+        "placeholder": "",
+        "type": "radio",
+        "validators": { "required": true },
+        "options": [
+          {
+            
+            "value": "datee",
+            "name": "",
+            
+            "display": true,
+            "label": "",
+            "placeholder": "mm/dd/yyyy",
+            "type": "date",
+            "validators": { "required": true },
+            "disabled": false,
+           
+            
+          },
+          {
+            "label": "N/A",
+            "value": "N/A"
+          },
+        ],
+        "class": "blockRadio",
+        "for":"Zejula"
+      },
+      
+      
+      
     ]
   },
   "prescriptionInfo": {
