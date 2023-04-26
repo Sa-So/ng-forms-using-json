@@ -9,8 +9,7 @@
         "placeholder": "Enter your First name",
         "type": "text",
         "validators": {},
-        "for":"Zejula, Ojjaara",
-        
+        "for": "Zejula, Ojjaara"
       },
       {
         "name": "patientLastName ",
@@ -20,7 +19,7 @@
         "placeholder": "Enter your Last Name ",
         "type": "text",
         "validators": {},
-        "for":"Zejula, Ojjaara",
+        "for": "Zejula, Ojjaara"
       },
       {
         "name": "patientDateOfBirth",
@@ -31,7 +30,7 @@
         "type": "date",
         "validators": { "required": true },
         "disabled": false,
-        "for":"Zejula, Ojjaara",
+        "for": "Zejula, Ojjaara"
       },
       {
         "name": "treatmentStartDate",
@@ -52,7 +51,7 @@
         "placeholder": "Enter your Primary Diagnosis",
         "type": "text",
         "validators": { "required": true },
-        "for":"Zejula, Ojjaara",
+        "for": "Zejula, Ojjaara"
       },
       {
         "name": "primaryDiagnosisICD-10Code",
@@ -62,7 +61,7 @@
         "placeholder": "Enter your Primary Diagnosis ICD-10 Code",
         "type": "text",
         "validators": { "required": true },
-        "for":"Zejula, Ojjaara",
+        "for": "Zejula, Ojjaara"
       },
       {
         "name": "secondaryDiagnosis",
@@ -72,7 +71,7 @@
         "placeholder": "Enter your Secondary Diagnosis",
         "type": "text",
         "validators": {},
-        "for":"Zejula, Ojjaara",
+        "for": "Zejula, Ojjaara"
       },
       {
         "name": "secondaryDiagnosisICD-10Code",
@@ -82,7 +81,7 @@
         "placeholder": "Enter your Secondary Diagnosis ICD-10 Code",
         "type": "text",
         "validators": {},
-        "for":"Zejula, Ojjaara",
+        "for": "Zejula, Ojjaara"
       }
     ]
   },
@@ -112,10 +111,14 @@
           {
             "label": "4th line",
             "value": "4th line"
+          },
+          {
+            "label": "4th line+",
+            "value": "4th line+"
           }
         ],
         "class": "blockRadio",
-        "for":"Zejula"
+        "for": "Zejula"
       },
       {
         "name": "BRCA Test",
@@ -139,12 +142,12 @@
             "value": "Results Pending"
           },
           {
-            "label": "No Teste",
+            "label": "No Test",
             "value": "No Test"
           }
         ],
         "class": "blockRadio",
-        "for":"Zejula"
+        "for": "Zejula"
       },
       {
         "name": "HRD Test",
@@ -168,33 +171,12 @@
             "value": "Results Pending"
           },
           {
-            "label": "No Teste",
+            "label": "No Test",
             "value": "No Test"
           }
         ],
         "class": "blockRadio",
-        "for":"Zejula"
-        
-      },
-      {
-        "name": "knownDrugAllergies",
-        "value": "",
-        "display": true,
-        "label": "Known Drug Allergies",
-        "placeholder": "Enter your Known Drug Allergies",
-        "type": "text",
-        "validators": {},
-        "for":"Zejula , Ojjaara "
-      },
-      {
-        "name": "notes",
-        "value": "",
-        "display": true,
-        "label": "Notes",
-        "placeholder": "Enter your Notess",
-        "type": "text",
-        "validators": {},
-        "for":"Zejula , Ojjaara "
+        "for": "Zejula"
       },
       {
         "name": "previousTherapies",
@@ -217,43 +199,40 @@
         "for": "Ojjaara"
       },
       {
-        "name": "Date of Last Transfusion",
+        "name": "dateOfLastTransfusion",
         "value": "",
         "display": true,
-        "label": "",
+        "label": "Date of Last Transfusion",
         "placeholder": "",
-        "type": "radio",
+        "type": "date",
         "validators": { "required": true },
-        "options": [
-          {
-            
-            "value": "datee",
-            "name": "",
-            
-            "display": true,
-            "label": "",
-            "placeholder": "mm/dd/yyyy",
-            "type": "date",
-            "validators": { "required": true },
-            "disabled": false,
-           
-            
-          },
-          {
-            "label": "N/A",
-            "value": "N/A"
-          },
-        ],
-        "class": "blockRadio",
-        "for":"Zejula"
+        "for": "Ojjaara"
       },
-      
-      
-      
+      {
+        "name": "knownDrugAllergies",
+        "value": "",
+        "display": true,
+        "label": "Known Drug Allergies",
+        "placeholder": "Enter your Known Drug Allergies",
+        "type": "text",
+        "validators": {},
+        "for": "Zejula , Ojjaara "
+      },
+      {
+        "name": "notes",
+        "value": "",
+        "display": true,
+        "label": "Notes",
+        "placeholder": "Enter your Notes",
+        "type": "textarea",
+        "validators": {},
+        "for": "Zejula , Ojjaara "
+      }
     ]
   },
   "prescriptionInfo": {
     "controls": [
+      
       {
         "name": "prescriptionMedicine",
         "value": "",
@@ -261,8 +240,8 @@
         "label": "",
         "placeholder": "",
         "type": "checkbox",
-        "validators": { },
-        "for":"Zejula, Ojjaara",
+        "validators": {},
+        "for": "Zejula, Ojjaara",
         "options": [
           {
             "label": "ZEJULA: Standard Prescription",
@@ -274,7 +253,7 @@
           },
           {
             "label": "ZEJULA: Quick Start Program",
-            "subLabel":"For patients experiencing a delay in coverage at first dispense",
+            "subLabel": "For patients experiencing a delay in coverage at first dispense",
             "value": {
               "Id": 1,
               "Name": "quickStartProgram"
@@ -283,7 +262,7 @@
           },
           {
             "label": "ZEJULA: Bridge Program",
-            "subLabel":"For patients experiencing coverage interruptions while already on treatment",
+            "subLabel": "For patients experiencing coverage interruptions while already on treatment",
             "value": {
               "Id": 1,
               "Name": ""
@@ -300,7 +279,7 @@
           },
           {
             "label": "OJJAARA: Quick Start Program",
-            "subLabel":"For patients experiencing a delay in coverage at first dispense",
+            "subLabel": "For patients experiencing a delay in coverage at first dispense",
             "value": {
               "Id": 1,
               "Name": "quickStartProgram"
@@ -309,7 +288,7 @@
           },
           {
             "label": "OJJAARA: Bridge Program",
-            "subLabel":"For patients experiencing coverage interruptions while already on treatment",
+            "subLabel": "For patients experiencing coverage interruptions while already on treatment",
             "value": {
               "Id": 1,
               "Name": ""
@@ -325,6 +304,7 @@
         "label": "Prescription Signature",
         "placeholder": "Select Prescription Signature",
         "type": "select",
+        "for":"Zejula , Ojjaara ",
         "validators": { "required": true },
         "options": [
           {
@@ -338,8 +318,7 @@
         ]
       },
       {
-        "label":"Note: Signature will be obtained during the next step.",
-        "display":true
+
       }
     ]
   }
