@@ -64,6 +64,69 @@
         "for": "Zejula, Ojjaara"
       },
       {
+        "name": "diagnosisICD-10Code",
+        "value": "",
+        "display": true,
+        "label": "Diagnosis ICD-10 Code",
+        "placeholder": "",
+        "type": "radio",
+        "validators": { "required": true },
+        "options": [
+          {
+            "label": "C54.1-Malignant neoplasm of endometriume",
+            "value": "C54.1-Malignant neoplasm of endometrium"
+          },
+          {
+            "label": "Other",
+            "value": "Other"
+          },
+        ],
+        "class": "blockRadio",
+        "for": "Jemperli"
+      },
+      {
+        "name": "mismatchrepairstatus(MMR)",
+        "value": "",
+        "display": true,
+        "label": "Mismatch repair status (MMR)",
+        "placeholder": "",
+        "type": "radio",
+        "validators": { "required": true },
+        "options": [
+          {
+            "label": "Mismatch repair deficient (dMMR)",
+            "value": "Mismatch repair deficient (dMMR)"
+          },
+          {
+            "label": "Mismatch repair proficient (MMRp)",
+            "value": "Mismatch repair proficient (MMRp)"
+          },
+        ],
+        "class": "blockRadio",
+        "for": "Jemperli"
+      },
+      {
+        "name": "endometrialCancerPriortherapies ",
+        "value": "",
+        "display": true,
+        "label": "Endometrial cancer prior therapies ",
+        "placeholder": "",
+        "type": "radio",
+        "validators": { "required": true },
+        "options": [
+          {
+            "label": "Treatment with platinum-containing regimen",
+            "value": "Treatment with platinum-containing regimen"
+          },
+          {
+            "label": "Other",
+            "value": "Other"
+          },
+        ],
+        "class": "blockRadio",
+        "for": "Jemperli"
+      },
+      {
         "name": "secondaryDiagnosis",
         "value": "",
         "display": true,
