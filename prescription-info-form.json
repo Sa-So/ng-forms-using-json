@@ -84,10 +84,14 @@
         "for": "Jemperli"
       },
       {
-        "type": "text",
+        "name": "otherICD-10Code",
+        "value": "",
+        "display": false,
         "label": "",
-        "name": "OtherICD-10Code",
-        "value": ""
+        "placeholder": "",
+        "type": "text",
+        "validators": { "required": true },
+        "for": "Jemperli"
       },
       {
         "name": "mismatchrepairstatus(MMR)",
@@ -271,7 +275,7 @@
         "label": "Date of Last Transfusion",
         "placeholder": "",
         "type": "date",
-        "validators": { "required": true },
+        "validators": {},
         "for": "Ojjaara"
       },
       {
@@ -388,7 +392,7 @@
         "display": true,
         "label": "Strength/Form",
         "disabled": true,
-        "for":"Jemperli",
+        "for": "Jemperli",
         "value": "Injection: clear to slightly opalescent, colorless to yellow solution supplied in a carton containing one 500 mg/10 mL (50 mg/mL), single-dose vial (NDC 0173-0898-03)."
       },
       {
@@ -397,7 +401,7 @@
         "name": "jemperliIVDoa",
         "label": "Directions of Administration",
         "disabled": true,
-        "for":"Jemperli",
+        "for": "Jemperli",
         "value": "• Dose 1 through 4: 500 mg every 3 weeks.• Subsequent dosing beginning 3 weeks after Dose 4 (Dose5 onwards): 1000 mg every 6 weeks.• Administer as an intravenous infusion over 30 minutes."
       },
 
