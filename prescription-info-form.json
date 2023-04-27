@@ -9,7 +9,7 @@
         "placeholder": "Enter your First name",
         "type": "text",
         "validators": {},
-        "for": "Zejula, Ojjaara"
+        "for": "Zejula, Ojjaara, Jemperli"
       },
       {
         "name": "patientLastName ",
@@ -19,7 +19,7 @@
         "placeholder": "Enter your Last Name ",
         "type": "text",
         "validators": {},
-        "for": "Zejula, Ojjaara"
+        "for": "Zejula, Ojjaara, Jemperli"
       },
       {
         "name": "patientDateOfBirth",
@@ -30,7 +30,7 @@
         "type": "date",
         "validators": { "required": true },
         "disabled": false,
-        "for": "Zejula, Ojjaara"
+        "for": "Zejula, Ojjaara, Jemperli"
       },
       {
         "name": "treatmentStartDate",
@@ -79,10 +79,15 @@
           {
             "label": "Other",
             "value": "Other"
-          },
+          }
         ],
-        "class": "blockRadio",
         "for": "Jemperli"
+      },
+      {
+        "type": "text",
+        "label": "",
+        "name": "OtherICD-10Code",
+        "value": ""
       },
       {
         "name": "mismatchrepairstatus(MMR)",
@@ -90,7 +95,7 @@
         "display": true,
         "label": "Mismatch repair status (MMR)",
         "placeholder": "",
-        "type": "radio",
+        "type": "checkbox",
         "validators": { "required": true },
         "options": [
           {
@@ -100,9 +105,8 @@
           {
             "label": "Mismatch repair proficient (MMRp)",
             "value": "Mismatch repair proficient (MMRp)"
-          },
+          }
         ],
-        "class": "blockRadio",
         "for": "Jemperli"
       },
       {
@@ -111,7 +115,7 @@
         "display": true,
         "label": "Endometrial cancer prior therapies ",
         "placeholder": "",
-        "type": "radio",
+        "type": "checkbox",
         "validators": { "required": true },
         "options": [
           {
@@ -121,9 +125,8 @@
           {
             "label": "Other",
             "value": "Other"
-          },
+          }
         ],
-        "class": "blockRadio",
         "for": "Jemperli"
       },
       {
@@ -194,7 +197,7 @@
         "options": [
           {
             "label": "Positive",
-            "value": "Psitive"
+            "value": "Positive"
           },
           {
             "label": "Negative",
@@ -295,7 +298,6 @@
   },
   "prescriptionInfo": {
     "controls": [
-      
       {
         "name": "prescriptionMedicine",
         "value": "",
@@ -361,13 +363,52 @@
         ]
       },
       {
+        "name": "prescriptionMedicine",
+        "value": "",
+        "display": true,
+        "label": "",
+        "placeholder": "",
+        "type": "checkbox",
+        "validators": {},
+        "for": "Jemperli",
+        "options": [
+          {
+            "label": "JEMPERLI IV",
+            "value": {
+              "Id": 1,
+              "Name": ""
+            },
+            "for": "Jemperli"
+          }
+        ]
+      },
+      {
+        "type": "textarea",
+        "name": "jemperliIVStrength",
+        "display": true,
+        "label": "Strength/Form",
+        "disabled": true,
+        "for":"Jemperli",
+        "value": "Injection: clear to slightly opalescent, colorless to yellow solution supplied in a carton containing one 500 mg/10 mL (50 mg/mL), single-dose vial (NDC 0173-0898-03)."
+      },
+      {
+        "type": "textarea",
+        "display": true,
+        "name": "jemperliIVDoa",
+        "label": "Directions of Administration",
+        "disabled": true,
+        "for":"Jemperli",
+        "value": "• Dose 1 through 4: 500 mg every 3 weeks.• Subsequent dosing beginning 3 weeks after Dose 4 (Dose5 onwards): 1000 mg every 6 weeks.• Administer as an intravenous infusion over 30 minutes."
+      },
+
+      {
         "name": "prescriptionSignature",
         "value": "",
         "display": true,
         "label": "Prescription Signature",
         "placeholder": "Select Prescription Signature",
         "type": "select",
-        "for":"Zejula , Ojjaara ",
+        "for": "Zejula , Ojjaara ",
         "validators": { "required": true },
         "options": [
           {
@@ -380,9 +421,7 @@
           }
         ]
       },
-      {
-
-      }
+      {}
     ]
   }
 }
