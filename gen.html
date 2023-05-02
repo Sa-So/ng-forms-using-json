@@ -289,6 +289,7 @@
                     formArrName: 'mismatchrepairstatusMMR'
                   })
                 "
+                [checked]="clinicalInfoForm.get('mismatchrepairstatusMMR')?.value?.includes('Mismatch repair deficient (dMMR)')"
                 class="form-check-input"
                 value="Mismatch repair deficient (dMMR)" />
               <div>
@@ -307,6 +308,7 @@
                     formArrName: 'mismatchrepairstatusMMR'
                   })
                 "
+                [checked]="clinicalInfoForm.get('mismatchrepairstatusMMR')?.value?.includes('Mismatch repair proficient (MMRp)')"
                 class="form-check-input"
                 value="Mismatch repair proficient (MMRp)" />
               <div>
